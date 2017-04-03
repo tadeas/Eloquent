@@ -1,0 +1,26 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusable="true"
+    style="@style/list_item_2lines"
+    >
+
+    <TextView
+        android:id="@+id/famous_speeches_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        style="@style/list_header"
+        />
+
+    <TextView
+        android:id="@+id/famous_speeches_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        style="@style/list_secondary"
+        />
+
+</LinearLayout>

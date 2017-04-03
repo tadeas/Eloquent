@@ -1,0 +1,106 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionModeBackground">@color/colorPrimary</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+    <style name="list_view">
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="list_item">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="list_item_1line" parent="list_item">
+        <item name="android:layout_height">56dp</item>
+    </style>
+
+    <style name="list_item_2lines" parent="list_item">
+        <item name="android:layout_height">72dp</item>
+    </style>
+
+    <style name="list_header">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#dd000000</item>
+    </style>
+
+    <style name="list_secondary">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#89000000</item>
+    </style>
+
+    <style name="button_big">
+        <item name="android:textSize">28sp</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_width">256dp</item>
+    </style>
+
+    <style name="text_recording">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="spinner">
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="text_header">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#dd000000</item>
+        <item name="android:layout_marginBottom">24dp</item>
+    </style>
+
+    <style name="text_block">
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <style name="empty_fragment_warning">
+        <item name="android:textSize">32sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="link">
+        <item name="android:textColor">@color/link</item>
+    </style>
+
+    <style name="main_screen_text">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="main_screen_text_land" parent="main_screen_text">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="main_screen_button">
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="main_screen_button_land" parent="main_screen_button">
+        <item name="android:layout_height">24dp</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+</resources>

@@ -1,0 +1,156 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tmoravec.eloquent.RecordingDetailsFragment"
+    android:padding="8dp"
+    >
+
+    <TextView
+        android:id="@+id/recording_details_topic"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textAppearance="@style/text_header"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/list_secondary"
+            android:text="@string/recording_details_duration"
+            />
+
+        <TextView
+            android:id="@+id/recording_details_duration"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_weight="1"
+            style="@style/list_secondary"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/list_secondary"
+            android:text="@string/recording_details_recordedOn"
+            />
+
+        <TextView
+            android:id="@+id/recording_details_recordedOn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_weight="1"
+            style="@style/list_secondary"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/player_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:paddingLeft="4dp" >
+
+        <ImageView
+            android:id="@+id/recording_details_audio_player_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:src="@android:drawable/ic_media_play" />
+
+        <ImageView
+            android:id="@+id/recording_details_audio_player_pause"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:src="@android:drawable/ic_media_pause"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.8"
+            android:paddingBottom="5dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp" >
+
+            <SeekBar
+                android:id="@+id/recording_details_audio_player_media_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:maxHeight="50dp"
+                android:minHeight="50dp"
+                android:layout_gravity="center_vertical" />
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/recording_details_system_player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_play"
+        android:visibility="gone"
+        />
+
+
+
+    <ProgressBar
+        android:id="@+id/recording_details_uploading_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/recording_details_link"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:autoLink="web"
+        style="@style/link"
+        android:visibility="gone"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+
+
+</LinearLayout>

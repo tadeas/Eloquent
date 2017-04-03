@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context="com.tmoravec.eloquent.NewPreparedSpeechFragment">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/prepared_speech_name_hint"
+        android:inputType="text"
+        android:textIsSelectable="true"
+        android:id="@+id/prepared_speech_name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:hint="@string/prepared_speech_content_hint"
+        android:inputType="textMultiLine|textLongMessage"
+        android:textIsSelectable="true"
+        android:id="@+id/prepared_speech_content" />
+</LinearLayout>

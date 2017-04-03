@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "444511386286",
+    "firebase_url": "https://eloquent-e78be.firebaseio.com",
+    "project_id": "eloquent-e78be",
+    "storage_bucket": "eloquent-e78be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444511386286:android:ec81970cd4214f86",
+        "android_client_info": {
+          "package_name": "com.tmoravec.eloquent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444511386286-pv1dfulncjuejgf9cu7nal6meou11o0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIlOIvAkALdIyhGFiwbDoS35obuVSJsTw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

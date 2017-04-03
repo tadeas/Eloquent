@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/player_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/gray_border_wo_padding"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="4dp" >
+
+        <ImageView
+            android:id="@+id/audio_player_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:src="@android:drawable/ic_media_play" />
+
+        <ImageView
+            android:id="@+id/audio_player_pause"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:src="@android:drawable/ic_media_pause"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="0.8"
+            android:paddingBottom="5dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp" >
+
+            <SeekBar
+                android:id="@+id/audio_player_media_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:maxHeight="50dp"
+                android:minHeight="50dp"
+                android:layout_gravity="center_vertical" />
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+</FrameLayout>

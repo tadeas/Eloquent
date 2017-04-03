@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tmoravec.eloquent">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- Required by Apptentive -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!--<uses-permission android:name="android.permission.GET_ACCOUNTS"/>-->
+
+    <!-- Required by Apptentive -->
+    <supports-screens android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:anyDensity="true"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- production key -->
+        <!--<meta-data android:name="apptentive_api_key" android:value="167527e445d1ed71a092b94db109de745e8a77497a0c98848393295c602bcda0"/>-->
+
+        <!-- dev key -->
+        <meta-data android:name="apptentive_api_key" android:value="cc40c21485ebb90a55e97ef712e872c41e827b97e30d73bbe91047f44ca72265"/>
+        <activity android:name="com.apptentive.android.sdk.ViewActivity"
+            android:theme="@style/ApptentiveTheme"/>
+    </application>
+
+</manifest>

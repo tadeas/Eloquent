@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Eloquent</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="menu_recordings">Recordings</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_topics">Training topics</string>
+    <string name="menu_tips">Speaking tips</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_famous_speeches">Famous speeches</string>
+    <string name="menu_recording_details_share">Upload</string>
+    <string name="menu_recording_details_delete">Delete</string>
+    <string name="menu_topics_random">Random</string>
+
+    <string name="main_screen_record_text">Record a short practice version of your speech or presentation.</string>
+    <string name="main_screen_record_button">RECORD</string>
+    <string name="main_screen_tips_text">Presentation tips to keep in mind while you are speaking.</string>
+    <string name="main_screen_tips_button">TIPS</string>
+    <string name="main_screen_impromptu_text">Amusing topics for impromptu practice speech.</string>
+    <string name="main_screen_impromptu_button">IMPROMPTU</string>
+    <string name="main_screen_famous_text">Read and record a well known speech from the history.</string>
+    <string name="main_screen_famous_button">FAMOUS SPEECH</string>
+    <string name="main_screen_feedback_text">Let us know how can we make the app better for you.</string>
+    <string name="main_screen_feedback_button">FEEDBACK</string>
+    <string name="main_screen_rate_text">If you like Eloquent, tell it to the others.</string>
+    <string name="main_screen_rate_button">RATE</string>
+
+    <string name="permission_audio_not_granted">Without a permission to record audio, we won\'t be able to record your speech.</string>
+    <string name="permission_storage_not_granted">Without a permission to write to a storage, we won\'t be able to record your speech.</string>
+
+    <string name="title_record">New recording</string>
+    <string name="title_topics">Training topics</string>
+    <string name="title_tips">Speaking tips</string>
+    <string name="title_recording">Recording</string>
+    <string name="title_recordings">Recordings</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_famous_speeches">Inspiration and Practice</string>
+
+    <string name="button_record">Record</string>
+    <string name="button_stop_recording">Save</string>
+    <string name="button_tips">Tips</string>
+    <string name="title_tip">Speaking tip</string>
+
+    <string name="seconds_remaining">s remaining</string>
+    <string name="minutes_remaining"> minutes remaining</string>
+    <string name="seconds"> seconds</string>
+    <string name="minutes"> minutes</string>
+    <string name="finished">Finished</string>
+
+    <string name="record_topic">Topic:</string>
+    <string name="record_duration">Duration:</string>
+    <string name="record_duration_minutes">minutes</string>
+    <string name="record_recording">Recording!</string>
+    <string name="record_default_name">No topic</string>
+    <string name="record_introduction">Try a short version of your presentation. It should be long enough so that various speaking mistakes show up, but short enough to get the feedback in a reasonable time. Make sure to get all the main points through. You will get a warning when the time runs out, but it will keep recording until you make it stop.</string>
+
+    <string name="delete_recording">Delete</string>
+
+    <string name="recordings_no_recordings">Create your first speech!</string>
+    <string name="recordings_no_player">To play the recording, you need an audio player. Any free music player from Google Play should do.</string>
+
+    <string name="pref_screen_on">Keep screen on</string>
+    <string name="pref_screen_on_summary">Keep screen on while recording</string>
+    <string name="pref_storage_external">Use external storage</string>
+    <string name="pref_storage_external_summary">Save recording to the external SD card</string>
+    <string name="pref_upload_wifi_only">Upload on WIFI only</string>
+    <string name="pref_upload_wifi_only_summary">Require WIFI to upload the recordings</string>
+    <string name="pref_delete_all_recordings">Delete all recordings</string>
+    <string name="pref_delete_all_recordings_summary">Delete all recordings</string>
+
+
+    <string name="confirm_delete_title">Delete recording?</string>
+    <string name="confirm_delete_title_all">Delete all recordings?</string>
+    <string name="confirm_delete_details">This cannot be undone.</string>
+    <string name="confirm_delete_ok">Delete</string>
+    <string name="confirm_delete_cancel">Cancel</string>
+    <string name="confirm_delete_deleted">All recordings deleted.</string>
+
+    <string name="confirm_upload_title">Upload to the Internet</string>
+    <string name="confirm_upload_details">You will get a web link where you can hear the recording online and which you can share with other people.\n\nThis service is provided by a third party, Clyp.it.</string>
+    <string name="confirm_upload_ok">Upload</string>
+    <string name="confirm_upload_cancel">Cancel</string>
+    <string name="confirm_upload_success">Successfully uploaded.</string>
+    <string name="confirm_upload_failure">Failed to upload the recording. Please try again later.</string>
+
+    <string name="recording_details_duration">Duration:</string>
+    <string name="recording_details_recordedOn">Recorded on:</string>
+    <string name="recording_details_deleted">Deleted.</string>
+    <string name="recording_details_delete_confirmation">Delete this recording? It cannot be undone.</string>
+    <string name="recording_details_open_link">Open link</string>
+    <string name="recording_details_upload_failed">Upload failed. Please check your Internet connectivity and try again later.</string>
+
+    <string name="prepared_speech_name_hint">Name</string>
+    <string name="prepared_speech_content_hint">Type or paste the content here.</string>
+
+</resources>
